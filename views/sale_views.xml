@@ -7,7 +7,7 @@
 			<field name="inherit_id" ref="sale.view_order_line_tree"/>
 			<field name="arch" type="xml">
                 <xpath expr="//field[@name='product_uom_qty']" position="after">
-                    <field name="qty_to_plan" />
+                    <field name="qty_to_plan" optional="show"/>
 				</xpath>
 			</field>
 		</record>
